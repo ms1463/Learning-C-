@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 //introduction to writing code
 /*int main()
@@ -87,7 +88,7 @@ int main()
 } */
 
 
-namespace first
+/* first
 {
 	int x = 1;
 }
@@ -97,13 +98,13 @@ namespace second
 	int x = 2;
 }
 
-int main()
+ int main()
 {
-	/* 
+	 
 	* Namespace = provides a solution for preventing name conflicts in large projects. 
 	* Each entity needs a unique name.
 	* A namespace allows for identically named entites as long as the namespacees are different.
-	*/
+	
 
 	using namespace std;
 
@@ -111,6 +112,61 @@ int main()
 
 	return 0;
 }
+
+*/
+
+
+// typedef std::vector<std::pair<std::string, int>> pairlist_t;
+//typedef std::string text_t;
+//typedef int number_t;
+/* using text_t = std::string;
+using number_t = int;
+int main()
+{
+	// typedef = reserved keyword used to create an additional name
+	// (alias) for another data type
+	// New identifier for an existing type
+	// Helps with readability and reduces typos
+	// Replace with 'using' (work better w/ templates)
+
+
+	text_t firstName = "Bro";
+	number_t age = 21;
+
+	std::cout << firstName << '\n';
+	std::cout << age << '\n';
+
+	return 0;
+} */
+
+int main()
+{
+	// arithmetic operators = return the result of a specific arithmetic operation (+ - * /)
+	//parenthesis and then multiplication & division and then lastly addition & subtraction
+
+	//int students = 21;
+	//students = students + 2;
+	//students += 2;
+	//students++;
+
+	//students = students - 2;
+	//students -= 2;
+	//students--;
+
+	// students= students * 2;
+	//students *= 2;
+
+	//students = students / 2;
+	//students /= 3;
+
+	//int remainder = students % 2;
+	int students = 6 - (5 + 4) * 3 / 2;
+	std::cout << students;
+
+	return 0;
+
+}
+
 
 
 
