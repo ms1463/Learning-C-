@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include<string>
+#include <cmath>
 
 //introduction to writing code
 /*int main()
@@ -139,7 +141,7 @@ int main()
 	return 0;
 } */
 
-int main()
+/* int main()
 {
 	// arithmetic operators = return the result of a specific arithmetic operation (+ - * /)
 	//parenthesis and then multiplication & division and then lastly addition & subtraction
@@ -164,6 +166,142 @@ int main()
 	std::cout << students;
 
 	return 0;
+
+} */
+
+/* int main()
+{
+	// type conversion a value of one data type to another 
+	// Implicit = automatic
+	// Explicit = Precede the value with new data type (int)
+
+	//double x = (int) 3.14;
+	
+	int correct =  8;
+	int questions = 10;
+	double score = (double) correct/questions * 100;
+	std::cout << score << "%";
+} */
+
+/* int main()
+{
+	// cout << (insertion operator)
+	// cin >> (extraction operator)
+
+	std::string name;
+	std::cout << "What's your full name?: ";
+	std::getline(std::cin, name);
+	
+	int age;
+	std::cout << "What's your age?: ";
+	std::cin >> age;
+
+	std::cout << "Hello " << name << '\n';
+	std::cout << "You are " << age << " years old";
+
+
+	return 0;
+} */
+
+/* int main()
+{
+	double x = 3.99;
+	double y = 4;
+	double z;
+
+	//z = std::max(x, y);
+	//z = std::min(3, 4);
+	//z = pow(2, 4)
+	//z = sqrt(9);
+	//z = abs(-3);
+	//z round(x);
+	//z = ceil(x);
+	z = floor(x);
+
+	std::cout << z;
+
+
+
+	return 0;
+}
+*/
+
+/* int main()
+{
+	double a;
+	double b;
+	double c;
+
+	std::cout << "Enter side A: ";
+	std::cin >> a;
+
+	std::cout << "Enter size B: ";
+	std::cin >> b;
+
+	a = pow(a, 2);
+	b = pow(b, 2);
+
+	c = sqrt(a + b);
+
+	std::cout << "side C: " << c;
+	return 0;
+} */
+
+/* int main()
+{
+	//If statements = do something if a condition is true.
+	// if not, then don't do it
+
+	int age;
+
+	std::cout << "Enter your age: ";
+	std::cin >> age;
+	if (age >= 18 && age < 100 )
+	{
+		std::cout << "Welcome to the site!";
+	}
+
+	else if (age < 0)
+	{
+		std::cout << "You haven't been born yet!";
+	}
+
+	else if (age >= 100)
+	{
+		std::cout << "You are to old to enter this site!";
+	}
+	else
+	{
+		std::cout << "You are not old enough to enter!";
+	}
+
+
+} */
+
+int main()
+{
+	// switch = alternative to using many "else if" statements
+	//compare one value against matching cases
+
+	int month;
+	std::cout << "Enter the month (1-12): ";
+	std::cin >> month;
+
+	switch (month) 
+	{
+	case 1:
+		std::cout << "It is January";
+		break;
+	case 2:
+		std::cout << "It is February";
+		break;
+
+	}
+
+
+
+	return 0;
+
 
 }
 
