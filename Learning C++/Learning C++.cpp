@@ -278,7 +278,7 @@ int main()
 
 } */
 
-int main()
+/* main()
 {
 	// switch = alternative to using many "else if" statements
 	//compare one value against matching cases
@@ -303,7 +303,8 @@ int main()
 	return 0;
 
 
-}
+} */
+
 
 
 
