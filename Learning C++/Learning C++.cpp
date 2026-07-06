@@ -501,6 +501,110 @@ int main()
 	return 0;
 } */
 
+void happyBirthday(std::string name);
+
+/* int main()
+{
+	// function = a block of reusable code
+
+	std::string name = "Manpreet";
+
+	happyBirthday(name);
+
+
+
+	return 0;
+}
+
+void happyBirthday(std::string name)
+{
+	std::cout << "Happy Birthday to " << name << "!" << '\n';
+	std::cout << "Happy Birthday to " << name << "!" << '\n';
+	std::cout << "Happy Birthday to " << name << "!" << '\n';
+	std::cout << "Happy Birthday to " << name << "!" << '\n';
+} */
+
+
+/*double square(double length);
+double cube(double length);
+
+int main()
+{
+	// return = return a value back to the spot where you called the encompassing function
+
+	double length = 6.0;
+	double area = square(length);
+	double volume = cube(length);
+
+
+	std::cout << "Area: " << area << " cm^2" << '\n';
+	std::cout << "Volume: " << volume << " cm^3" << '\n';
+
+	return 0;
+}
+
+double square(double length)
+{
+	return length * length;
+
+}
+
+double cube(double length)
+{
+	return length * length * length;
+
+} */
+
+
+/* void bakePizza();
+void bakePizza(std::string topping1);
+void bakePizza(std::string topping1, std::string topping2);
+
+int main()
+{
+	bakePizza();
+	bakePizza("Pepperoni");
+	bakePizza("Pepperoni", "Sausage");
+	return 0;
+}
+
+void bakePizza()
+{
+	std::cout << "Here is your pizza!" << '\n';
+}
+
+void bakePizza(std::string topping1)
+{
+	std::cout << "Here is your " << topping1 << " pizza!" << '\n';
+}
+
+void bakePizza(std::string topping1, std::string topping2)
+{
+	std::cout << "Here is your " << topping1 << " and " << topping2 << " pizza!" << '\n';
+} */
+
+/* int myNum = 3;
+
+void printNum();
+int main()
+{
+	// Local variables = delcared inside a function or block {}
+	// Global variables = delcared outside of all functions
+
+
+	printNum();
+	
+	std::cout << myNum;
+
+
+	return 0;
+}
+
+void printNum()
+{
+	std::cout << myNum;
+} */
+
 
 
 
